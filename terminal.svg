@@ -1,0 +1,47 @@
+<svg width="850" height="720" viewBox="0 0 850 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="scan" x="0" y="30" width="850" height="4" patternUnits="userSpaceOnUse">
+      <rect y="2" width="850" height="2" fill="#000" opacity="0.45"/>
+    </pattern>
+    <clipPath id="body">
+      <rect x="0" y="30" width="850" height="690"/>
+    </clipPath>
+  </defs>
+
+  <rect width="850" height="720" fill="#050505"/>
+  <rect width="850" height="30" fill="#151515"/>
+  <circle cx="20" cy="15" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="15" r="6" fill="#27c93f"/>
+  <text x="425" y="20" font-family="monospace" font-size="12" fill="#666" text-anchor="middle">rednoobmusic@Linux: ~</text>
+
+  <text xml:space="preserve" font-family="monospace" font-size="13.5px">
+    <tspan x="20" y="62" fill="#ff2a2a">[rednoobmusic@Linux ~]$ neofetch</tspan>
+    <tspan x="20" dy="28" fill="#aa1a1a">                   -`                </tspan><tspan fill="#ff2a2a">   rednoobmusic@Linux.attlocal.net</tspan>
+    <tspan x="20" dy="22" fill="#aa1a1a">                  .o+`               </tspan><tspan fill="#ff2a2a">   -------------------------------</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">                 `ooo/               </tspan><tspan fill="#ff2a2a">   OS: Arch Linux x86_64</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">                `+oooo:              </tspan><tspan fill="#ff2a2a">   Host: MS-7D98 3.0</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">               `+oooooo:             </tspan><tspan fill="#ff2a2a">   Kernel: 6.19.6-arch1-1</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">               -+oooooo+:            </tspan><tspan fill="#ff2a2a">   Uptime: 13 days, 12 hours, 47 mins</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">             `/:-:++oooo+:           </tspan><tspan fill="#ff2a2a">   Packages: 1776 (pacman), 48 (flatpak)</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">            `/++++/+++++++:          </tspan><tspan fill="#ff2a2a">   Shell: bash 5.3.9</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">           `/++++++++++++++:         </tspan><tspan fill="#ff2a2a">   Resolution: 2560x1440</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">          `/+++ooooooooooooo/`       </tspan><tspan fill="#ff2a2a">   DE: Plasma 6.6.2</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">         ./ooosssso++osssssso+`      </tspan><tspan fill="#ff2a2a">   WM: kwin</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">        .oossssso-````/ossssss+`     </tspan><tspan fill="#ff2a2a">   Theme: Emacs [GTK2/3]</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">       -osssssso.      :ssssssso.    </tspan><tspan fill="#ff2a2a">   Icons: YAMIS [GTK2/3]</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">      :osssssss/        osssso+++.   </tspan><tspan fill="#ff2a2a">   Terminal: konsole</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">     /ossssssss/        +ssssooo/-   </tspan><tspan fill="#ff2a2a">   CPU: Intel i5-14500 (20) @ 5.000GHz</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">   `/ossssso+/:-        -:/+osssso+- </tspan><tspan fill="#ff2a2a">   GPU: Intel Arc B570 [Battlemage G21]</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">  `+sso+:-`                 `.-/+oso:</tspan><tspan fill="#ff2a2a">   Memory: 21287MiB / 31801MiB</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">  `++:.                           `-/+/</tspan>
+    <tspan x="20" dy="20" fill="#aa1a1a">  .`                                 `/</tspan>
+    <tspan x="20" dy="28" fill="#ff2a2a">[rednoobmusic@Linux ~]$ </tspan>
+  </text>
+
+  <rect x="214" y="467" width="8.1" height="15" fill="#ff2a2a">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect width="850" height="690" y="30" fill="url(#scan)" clip-path="url(#body)"/>
+</svg>
